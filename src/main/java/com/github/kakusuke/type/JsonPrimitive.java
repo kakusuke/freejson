@@ -1,4 +1,4 @@
-package com.github.kakusuke;
+package com.github.kakusuke.type;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.github.kakusuke;
+package com.github.kakusuke.type;
 
 import java.util.Collection;
 import java.util.function.BiConsumer;
@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 /**
  * Created by kakusuke on 2014/11/30.
  */
-interface JsonValue {
+public interface JsonValue {
     public static JsonValue valueOf(Object value) {
         if (value == null)               return JsonPrimitive.nullValue;
         if (value instanceof JsonValue)  return (JsonValue) value;

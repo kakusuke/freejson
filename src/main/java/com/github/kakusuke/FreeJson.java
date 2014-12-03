@@ -1,5 +1,8 @@
 package com.github.kakusuke;
 
+import com.github.kakusuke.type.JsonObject;
+import com.github.kakusuke.type.JsonValue;
+
 import java.util.Collection;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;

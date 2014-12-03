@@ -1,4 +1,4 @@
-package com.github.kakusuke;
+package com.github.kakusuke.type;
 
 import java.util.Collection;
 import java.util.LinkedHashMap;
@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 /**
  * Created by kakusuke on 2014/11/18.
  */
-class JsonObject implements JsonValue {
+public class JsonObject implements JsonValue {
     public JsonObject(Consumer<JsonObject> consumer) {
         consumer.accept(this);
     }
